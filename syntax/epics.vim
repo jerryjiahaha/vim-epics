@@ -27,12 +27,15 @@ syn keyword fieldKeyWords  NORD NELM FTVL
 syn keyword fieldKeyWords  SELM SELL SELN
 syn keyword fieldKeyWords  SIMM SIOL SIML SVAL SIMS
 syn keyword fieldKeyWords  HIHI LOLO HIGH LOW  HHSV LLSV HSV LSV
-syn keyword fieldKeyWords  INAM SNAM FTA  NOA
+syn keyword fieldKeyWords  INAM SNAM NOA
+syn keyword fieldKeyWords  FTA  FTB  FTC  FTD  FTE  FTF
+syn keyword fieldKeyWords  FTVA FTVB FTVC FTVD FTVE FTVF
 syn keyword fieldKeyWords  MALM INDX
+syn keyword fieldKeyWords  LFLG EFLG
 syn keyword fieldKeyWords  ZRVL ONVL TWVL THVL FRVL FVVL SXVL SVVL EIVL NIVL TEVL ELVL TVVL TTVL FTVL FFVL
 syn keyword fieldKeyWords  ZRST ONST TWST THST FRST FVST SXST SVST EIST NIST TEST ELST TVST TTST FTST FFST
 
-syn keyword recordType ai ao bi bo stringin stringout longin longout calcout waveform seq fanout mbbi mbbo dfanout calc sub aSub aai aao subArray event
+syn keyword recordType ai ao bi bo stringin stringout longin longout calcout waveform seq fanout mbbi mbbo dfanout calc sub aSub aai aao subArray event mbbiDirect mbbo mbboDirect
 syn keyword dblinkType CONSTANT PV_LINK INST_IO
 
 
